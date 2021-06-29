@@ -1,0 +1,10 @@
+.page {
+  min-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter';
+  background-color: #2A2C2F;
+  color: #FFFFFF;
+  text-rendering: optimizeLegibility;
+}
