@@ -1,4 +1,4 @@
-.place__website__link {
+.website__link {
   margin: 0;
   font-style: normal;
   font-weight: normal;
@@ -7,6 +7,6 @@
   color: #FFFFFF;
 }
 
-.place__website__link:hover {
+.website__link:hover {
   color: #cccccc;
 }
