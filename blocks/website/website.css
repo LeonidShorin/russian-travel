@@ -1,13 +1,12 @@
-.place__website {
+.website {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-self: flex-end;
 }
 
-@media screen and (max-width: 768px) {
-  .place__website {
-    width: calc(100% - 32px);
+@media screen and (max-width: 1024px) {
+  .website {
     margin: 0 auto;
     margin-left: 16px;
   }

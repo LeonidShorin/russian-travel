@@ -1,23 +1,25 @@
 .place__paragraphes {
-  max-width: calc(100% - 500px);
+  max-width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-@media screen and (max-width: 1280px) {
-  .place__paragraphes {
-    width: calc(100% - 472px);
-  }
-}
-
 @media screen and (max-width: 1024px) {
   .place__paragraphes {
-    width: calc(100% - 368px);
+    min-width: 30%;
+    max-width: calc(100% - 568px);
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__paragraphes {
-    width: 100%;
+    min-width: 30%;
+    max-width: 30%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraphes {
+    min-width: 100%;
   }
 }
