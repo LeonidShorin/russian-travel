@@ -1,0 +1,23 @@
+.place__paragraphes {
+  max-width: calc(100% - 500px);
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1280px) {
+  .place__paragraphes {
+    width: calc(100% - 472px);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraphes {
+    width: calc(100% - 368px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraphes {
+    width: 100%;
+  }
+}

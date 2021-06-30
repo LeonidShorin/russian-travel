@@ -5,8 +5,23 @@
   line-height: 18px;
   color: #FFFFFF;
   text-decoration: none;
+  margin: 0;
+  margin-right: 18px;
+}
+
+.footer__link:last-of-type {
+  margin: 0;
 }
 
 .footer__link:hover {
   color: #cccccc;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    margin: 0 0 32px 0;
+  }
+  .footer__link:last-of-type {
+    margin: 0 0 48px 0;
+  }
 }

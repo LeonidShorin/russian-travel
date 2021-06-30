@@ -3,23 +3,23 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
-  margin-left: 533px;
+  margin: 0 0 0 533px;
+}
+
+@media screen and (max-width: 1280px){
+  .footer__copyright {
+    margin: 0 0 0 277px;
+  }  
 }
 
 @media screen and (max-width: 1024px){
   .footer__copyright {
-    margin-left: 277px;
-  }  
+    margin: 0 0 0 69px;
+  }
 }
 
 @media screen and (max-width: 768px){
   .footer__copyright {
-    margin-left: 69px;
-  }
-}
-
-@media screen and (max-width: 320px){
-  .footer__copyright {
-    margin-left: 0;
+    margin: 0;
   }
 }

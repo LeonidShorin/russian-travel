@@ -1,5 +1,14 @@
 .place__website {
-  list-style-type: none;
-  padding: 0;
-  margin-bottom: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    width: calc(100% - 32px);
+    margin: 0 auto;
+    margin-left: 16px;
+  }
 }
