@@ -3,7 +3,6 @@
   margin-top: 92px;
   margin-bottom: 24px;
   width: calc(100% - 96px);
-  min-height: 18px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -18,7 +17,8 @@
 
 @media screen and (max-width: 690px) {
   .footer {
-    width: calc(100% - 134px);
+    margin-top: 64px;
+    min-width: calc(100% - 134px);
     align-items: flex-start;
     flex-direction: column;
   }

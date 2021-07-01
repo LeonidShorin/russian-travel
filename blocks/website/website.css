@@ -5,9 +5,12 @@
   align-self: flex-end;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 701px) {
   .website {
+    width: calc(100% - 32px);
     margin: 0 auto;
+    align-self: flex-start;
     margin-left: 16px;
   }
+
 }

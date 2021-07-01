@@ -1,5 +1,7 @@
 .place__paragraph {
   margin: 0;
+  padding: 0;
+  width: 100%;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -10,21 +12,16 @@
   margin-bottom: 26px;
 }
 
-@media screen and (max-width: 1024px){
-  .place__paragraph {
-    font-size: 16px;
-  }  
-}
-
 @media screen and (max-width: 768px){
   .place__paragraph {
-    
-    margin: 0 auto 0 16px;
+    max-width: calc(100% - 32px);
+    font-size: 16px;
+    margin: 0 auto 0 25px;
   }  
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px){
   .place__paragraph {
-    
-  }
+    margin: 0 16px;
+  }  
 }

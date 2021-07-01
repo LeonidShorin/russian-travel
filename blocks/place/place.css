@@ -1,9 +1,24 @@
 .place {
+  width: 100%;
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
+}
+
+.place:not(:last-of-type) {
   margin-bottom: 80px;
 }
 
-.place:last-of-type {
-  margin-bottom: 0;
+@media screen and (max-width: 768px) {
+  .place:not(:last-of-type) {
+    margin-bottom: 73px;
+  }
+
+}
+
+@media screen and (max-width: 701px) {
+  .place:not(:last-of-type) {
+    margin-bottom: 50px;
+  }
+
 }
