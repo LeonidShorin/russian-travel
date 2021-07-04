@@ -8,5 +8,5 @@
 }
 
 .website__link:hover {
-  color: #cccccc;
+  opacity: .8;
 }
