@@ -4,6 +4,7 @@
   background-position: center;
   width: calc(100% - 96px);
   margin: 0 auto;
+  margin-top: 44px;
 }
 
 @media screen and (max-width: 1024px) {
